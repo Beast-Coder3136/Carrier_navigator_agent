@@ -1,0 +1,51 @@
+skill_id,name,category,difficulty
+S01,Python,programming,beginner
+S02,SQL,data,beginner
+S03,Git,tool,beginner
+S04,Linux Basics,infra,beginner
+S05,Data Structures,programming,intermediate
+S06,Algorithms,programming,intermediate
+S07,Math for ML,core-ai,intermediate
+S08,Statistics,data,intermediate
+S09,Probability,data,intermediate
+S10,Data Cleaning,data,beginner
+S11,Data Visualization,data,beginner
+S12,Excel,data,beginner
+S13,ML Basics,core-ai,intermediate
+S14,Scikit-learn,core-ai,intermediate
+S15,Deep Learning,core-ai,advanced
+S16,PyTorch,core-ai,advanced
+S17,TensorFlow,core-ai,advanced
+S18,NLP Basics,core-ai,intermediate
+S19,LLMs and Prompting,llm,intermediate
+S20,RAG,llm,advanced
+S21,Vector Databases,infra,intermediate
+S22,LangChain,llm,intermediate
+S23,Fine-tuning,llm,advanced
+S24,Model Evaluation,core-ai,intermediate
+S25,MLOps Basics,infra,intermediate
+S26,Docker,infra,intermediate
+S27,Kubernetes,infra,advanced
+S28,CI/CD,infra,intermediate
+S29,APIs with FastAPI,programming,intermediate
+S30,System Design,infra,advanced
+S31,Cloud Basics AWS,cloud,beginner
+S32,Data Modeling,data,intermediate
+S33,ETL Pipelines,data,intermediate
+S34,Apache Spark,data,advanced
+S35,Airflow,data,intermediate
+S36,Data Warehousing,data,intermediate
+S37,NoSQL MongoDB,data,intermediate
+S38,PostgreSQL,data,intermediate
+S39,Redis,infra,intermediate
+S40,JavaScript,programming,beginner
+S41,React,programming,intermediate
+S42,Node.js,programming,intermediate
+S43,Testing with PyTest,tool,intermediate
+S44,Communication,soft,beginner
+S45,Problem Solving,soft,intermediate
+S46,Experiment Tracking MLflow,core-ai,intermediate
+S47,Feature Stores,data,advanced
+S48,AI Ethics,soft,beginner
+S49,HuggingFace Transformers,llm,intermediate
+S50,Streamlit and Prototyping,tool,beginner

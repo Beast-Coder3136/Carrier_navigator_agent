@@ -1,0 +1,51 @@
+resource_id,skill_id,title,type,platform,duration_hrs,difficulty,url,cost
+RES01,S01,Python for Everybody Specialization,course,Coursera,30,beginner,https://example.com/res01,Paid
+RES02,S01,Automate the Boring Stuff with Python,book,Free,10,beginner,https://example.com/res02,Free
+RES03,S02,SQL Full Course for Beginners,video,YouTube,6,beginner,https://example.com/res03,Free
+RES04,S02,Mode SQL Advanced Tutorial,docs,Web,8,intermediate,https://example.com/res04,Free
+RES05,S03,Git and GitHub Crash Course,video,YouTube,3,beginner,https://example.com/res05,Free
+RES06,S04,Linux Basics for Developers,video,YouTube,5,beginner,https://example.com/res06,Free
+RES07,S05,Data Structures in Python,video,YouTube,8,intermediate,https://example.com/res07,Free
+RES08,S07,Essence of Linear Algebra,video,YouTube,6,beginner,https://example.com/res08,Free
+RES09,S08,Statistics for Data Science,video,YouTube,12,beginner,https://example.com/res09,Free
+RES10,S09,Probability Foundations,course,Khan Academy,10,beginner,https://example.com/res10,Free
+RES11,S10,Data Cleaning with Pandas,video,YouTube,4,beginner,https://example.com/res11,Free
+RES12,S11,Dashboard Design with PowerBI,course,Udemy,10,beginner,https://example.com/res12,Paid
+RES13,S12,Excel for Analysts,video,YouTube,5,beginner,https://example.com/res13,Free
+RES14,S13,Machine Learning Specialization,course,Coursera,40,beginner,https://example.com/res14,Paid
+RES15,S13,Hands-On ML Book Study Guide,book,Free,20,intermediate,https://example.com/res15,Free
+RES16,S14,Scikit-learn Official Tutorials,docs,Web,8,intermediate,https://example.com/res16,Free
+RES17,S15,Deep Learning Specialization,course,Coursera,50,intermediate,https://example.com/res17,Paid
+RES18,S16,PyTorch Zero to All,video,YouTube,12,intermediate,https://example.com/res18,Free
+RES19,S17,TensorFlow Developer Certificate,course,Coursera,30,intermediate,https://example.com/res19,Paid
+RES20,S18,NLP with HuggingFace,course,HuggingFace,15,intermediate,https://example.com/res20,Free
+RES21,S19,Prompt Engineering for Developers,course,DeepLearning.AI,5,beginner,https://example.com/res21,Free
+RES22,S19,ChatGPT Prompt Engineering Guide,docs,Web,3,beginner,https://example.com/res22,Free
+RES23,S20,RAG From Scratch,video,YouTube,6,intermediate,https://example.com/res23,Free
+RES24,S21,Vector Databases for LLMs,video,YouTube,4,intermediate,https://example.com/res24,Free
+RES25,S22,LangChain Crash Course,video,YouTube,5,intermediate,https://example.com/res25,Free
+RES26,S23,Fine-tuning LLMs Guide,docs,Web,8,advanced,https://example.com/res26,Free
+RES27,S24,Model Evaluation Metrics Guide,docs,Web,4,intermediate,https://example.com/res27,Free
+RES28,S25,MLOps Essentials,docs,Web,8,intermediate,https://example.com/res28,Free
+RES29,S26,Docker for Beginners,video,YouTube,4,beginner,https://example.com/res29,Free
+RES30,S27,Kubernetes Basics,video,YouTube,8,advanced,https://example.com/res30,Free
+RES31,S28,CI-CD with GitHub Actions,video,YouTube,5,intermediate,https://example.com/res31,Free
+RES32,S29,FastAPI Full Course,video,YouTube,7,beginner,https://example.com/res32,Free
+RES33,S29,FastAPI Official Docs,docs,Web,6,intermediate,https://example.com/res33,Free
+RES34,S30,System Design Primer,docs,GitHub,10,intermediate,https://example.com/res34,Free
+RES35,S31,AWS Cloud Practitioner Essentials,course,AWS,12,beginner,https://example.com/res35,Free
+RES36,S32,Data Modeling Fundamentals,video,YouTube,5,intermediate,https://example.com/res36,Free
+RES37,S33,ETL with Python Project,video,YouTube,6,intermediate,https://example.com/res37,Free
+RES38,S34,Spark for Data Engineers,video,YouTube,10,advanced,https://example.com/res38,Free
+RES39,S35,Airflow DAG Authoring Guide,docs,Web,8,intermediate,https://example.com/res39,Free
+RES40,S36,Data Warehousing Concepts,video,YouTube,6,intermediate,https://example.com/res40,Free
+RES41,S37,MongoDB University Basics,course,MongoDB,10,beginner,https://example.com/res41,Free
+RES42,S38,PostgreSQL Tutorial,docs,Web,8,beginner,https://example.com/res42,Free
+RES43,S39,Redis in 5 Minutes Plus Patterns,video,YouTube,3,intermediate,https://example.com/res43,Free
+RES44,S43,PyTest Full Course,video,YouTube,4,intermediate,https://example.com/res44,Free
+RES45,S44,Effective Tech Communication,video,YouTube,3,beginner,https://example.com/res45,Free
+RES46,S46,MLflow Experiment Tracking Guide,docs,Web,4,intermediate,https://example.com/res46,Free
+RES47,S47,Feature Store Intro,docs,Web,4,advanced,https://example.com/res47,Free
+RES48,S48,AI Ethics Short Course,video,YouTube,3,beginner,https://example.com/res48,Free
+RES49,S49,HuggingFace Transformers Course,course,HuggingFace,12,intermediate,https://example.com/res49,Free
+RES50,S50,Streamlit App Building Guide,docs,Web,4,beginner,https://example.com/res50,Free

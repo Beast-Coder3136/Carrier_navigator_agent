@@ -1,0 +1,6 @@
+role_id,title,level,demand,avg_salary_inr_lpa,description
+R01,AI Engineer,entry,high,12-18,Builds LLM apps RAG APIs and deploys AI features
+R02,ML Engineer,mid,high,15-25,Trains evaluates and productionizes ML models
+R03,Data Analyst,entry,high,6-10,Analyzes data builds dashboards answers business questions
+R04,Data Engineer,mid,high,12-20,Builds pipelines warehouses and reliable data infra
+R05,Backend Developer AI APIs,entry,medium,8-14,Builds FastAPI backends serving AI models
