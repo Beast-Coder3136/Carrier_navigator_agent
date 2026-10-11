@@ -28,7 +28,8 @@ analyze_skill_gap + get_learning_path (cite prerequisites and core-vs-bonus).
 Always name the graph relationships you used (requires, prerequisite, teaches).
 
 If the graph has no data for the question, say so instead of inventing.
-Default demo user, if the UI sends none, is Aarav.
+Every user message starts with [Learner: NAME] — always pass that exact name \
+as the user argument to tools, never any other name.
 """
 
 _agent = None
@@ -37,7 +38,7 @@ _agent = None
 def get_agent():
     global _agent
     if _agent is None:
-        llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash", temperature=0.2)
+        llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite", temperature=0.2)
         _agent = create_react_agent(llm, ALL_TOOLS, prompt=SYSTEM_PROMPT,
                                     checkpointer=MemorySaver())
     return _agent
@@ -49,7 +50,8 @@ def chat(user_text: str, thread_id: str = "demo") -> str:
     agent = get_agent()
     final = None
     for chunk in agent.stream(
-        {"messages": [{"role": "user", "content": user_text}]},
+        
+        {"messages": [{"role": "user", "content": "[Learner: NAME]".replace("NAME", thread_id) + "\n" + user_text}]},
         config={"configurable": {"thread_id": thread_id}},
         stream_mode="updates",
     ):
@@ -66,4 +68,4 @@ def chat(user_text: str, thread_id: str = "demo") -> str:
                 elif mtype == "ai" and getattr(m, "content", ""):
                     final = m.content
     print("[chat] done user={}".format(thread_id), flush=True)
-    return final or "Sorry, I could not generate a response."
+    return final[0]['text'] or "Sorry, I could not generate a response."

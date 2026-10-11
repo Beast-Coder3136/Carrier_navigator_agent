@@ -71,5 +71,31 @@ def add_person(req: AddPersonRequest):
     return result
 
 
+@app.get("/persons/{name}")
+def get_person(name: str):
+    """Current profile for sidebar: target role + skills with levels."""
+    try:
+        from tools import get_learner_profile
+        raw = get_learner_profile.invoke({"user": name})
+        result = json.loads(raw) if isinstance(raw, str) else raw
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    if isinstance(result, dict) and "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+@app.get("/fit/{name}")
+def role_fit(name: str):
+    """Readiness % across all roles — feeds the sidebar bars."""
+    try:
+        from tools import compare_roles
+        raw = compare_roles.invoke({"user": name})
+        result = json.loads(raw) if isinstance(raw, str) else raw
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return result
+
+
 if STATIC_DIR.exists():
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
